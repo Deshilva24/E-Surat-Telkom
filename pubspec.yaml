@@ -1,4 +1,4 @@
-name: surat
+name: inisurat
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -30,6 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  image_picker: ^1.1.2  # versi image_picker terbaru
+  google_mlkit_text_recognition: ^0.16.0
+  http: ^0.13.6
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
